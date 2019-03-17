@@ -1,0 +1,6 @@
+﻿{
+   "server": "localhost",
+   "port": "27017",
+   "dbname": "jumpstart",
+   "password": "jump-pass"
+}
