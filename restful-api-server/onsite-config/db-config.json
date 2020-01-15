@@ -1,4 +1,4 @@
 ﻿{
-   "server": "localhost",
+   "server": "db",
    "port": "27017"
 }

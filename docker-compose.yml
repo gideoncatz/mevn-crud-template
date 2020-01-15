@@ -1,0 +1,26 @@
+version: '2'
+services:
+    db:
+        image: "mongo:4"
+        restart: always
+#        environment:
+#            MONGO_INITDB_ROOT_USERNAME: root
+#            MONGO_INITDB_ROOT_PASSWORD: example
+#        ports: 
+#            - '27017:27017'
+        volumes:
+            - ./data/db:/data/db
+    api-server:
+        build: ./restful-api-server
+        restart: always
+        ports:
+            - '3000:3000'      
+#        volumes:
+#            - ./onsite-config:/usr/app/onsite-config
+    frontend:
+        build: ./frontend
+        restart: always
+        ports:
+            - '8080:8080'
+        
+            
