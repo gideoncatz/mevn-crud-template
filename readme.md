@@ -2,7 +2,7 @@
 
 This is a very simple CRUD template project (actually, without the Deletion functionality at this point) for practicing dockerization. It is written with the MEVN (Mongo/Express/VueJS/NodeJS stack).
 
-The master branch is not dockerized. For running the dockerized project, switch to the `dockerized` branch, and run:
+**The master branch is not dockerized.** For running the dockerized project, switch to the `dockerized` branch, and run:
 
 ```bash
 docker-compose build
