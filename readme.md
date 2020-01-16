@@ -8,4 +8,4 @@ This is a very simple CRUD template project (actually, without the Deletion func
 docker-compose build
 docker-compose up
 ```
-Make sure that the ports mentioned in `docker-compose.yml` (3000, 27017) are available on your host machine, or modify the host ports (the ones before the '`:`') accordingly in the yml before running the commands).
+Make sure that the ports mentioned in `docker-compose.yml` (3000, 27017, 8080) are available on your host machine, or modify the host ports (the ones before the '`:`') accordingly in the yml before running the commands).
